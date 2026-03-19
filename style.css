@@ -81,3 +81,13 @@ nav a {
   border-radius: 20px;
   text-decoration: none;
 }
+.card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
