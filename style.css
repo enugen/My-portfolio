@@ -105,3 +105,30 @@ body {
   margin-top: 20px;
   border: 3px solid white;
 }
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.skills span {
+  display: inline-block;
+  background: rgba(255,255,255,0.2);
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
