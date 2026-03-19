@@ -345,3 +345,54 @@ body {
   border-radius: 20px;
   text-decoration: none;
 }
+/* PROJECTS SECTION */
+#projects {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+#projects h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* CARD STYLE */
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 22px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* PROJECT BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
