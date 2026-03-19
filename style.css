@@ -94,3 +94,6 @@ nav a {
 body {
   font-family: 'Poppins', sans-serif;
 }
+.card:hover {
+  transform: translateY(-10px);
+}
