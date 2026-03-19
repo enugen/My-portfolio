@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+    background: #f8f5f2;
+    color: #333;
+}
+
+/* NAV */
+nav {
+    background: #3e2c23;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile {
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #d6c1b0;
+}
+
+.intro {
+    font-size: 18px;
+    color: #6b5b53;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.project {
+    text-align: center;
+    margin: 20px;
+}
+
+.project img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .profile {
+        width: 130px;
+    }
+}
