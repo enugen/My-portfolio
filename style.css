@@ -91,3 +91,6 @@ nav a {
   transform: translateY(-10px);
   transition: 0.3s;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
